@@ -9,14 +9,13 @@ https://wall-calender-qjhwex6nj-chhavidablas-projects.vercel.app/
 ## 📸 Preview
 
 ### 🗓️ Main Calendar View
-![Main View](./public/preview.png)
-
+![Calendar](./preview.png)
 
 ### 🌙 Dark Mode
-![Dark Mode](./public/dark.png)
+![Dark Mode](./dark-mode.png)
 
 ### 📝 Notes Panel
-![Notes](./public/notes.png)
+![Notes](./notes.png)
 
 ## ✨ Features
 
