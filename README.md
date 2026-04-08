@@ -3,6 +3,19 @@
 A production-quality interactive wall calendar built with **Next.js App Router**, designed to look and feel like a physical wall calendar with modern UX enhancements.
 
 ---
+## 🔗 Live Demo
+https://wall-calender-qjhwex6nj-chhavidablas-projects.vercel.app/
+
+## 📸 Preview
+
+### 🗓️ Main Calendar View
+![Main View](./public/preview.png)
+
+### 🌙 Dark Mode
+![Dark Mode](./public/dark.png)
+
+### 📝 Notes Panel
+![Notes](./public/notes.png)
 
 ## ✨ Features
 
