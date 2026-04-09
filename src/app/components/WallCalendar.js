@@ -235,10 +235,7 @@ export default function WallCalendar() {
           </div>
 
           {/* Body */}
-          <div style={{
-            display: 'grid',
-            gridTemplateColumns: 'minmax(0, 220px) 1fr minmax(0, 220px)',
-          }}>
+          <div className="calendar-layout">
             {/* Left panel - hidden on small screens via media queries aren't available inline, but we render it */}
             <LeftPanel viewYear={viewYear} viewMonth={viewMonth} showHolidays={showHolidays} />
 

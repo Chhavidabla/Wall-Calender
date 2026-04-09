@@ -1,3 +1,4 @@
+import './globals.css';
 export const metadata = {
   title: 'Indian Wall Calendar',
   description: 'Interactive wall calendar with Indian holidays',
