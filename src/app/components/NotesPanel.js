@@ -17,7 +17,7 @@ function formatRange(rangeStart, rangeEnd) {
   return { label: `${fmt(minO)} – ${fmt(maxO)}`, days };
 }
 
-export default function NotesPanel({ rangeStart, rangeEnd, activeNotes, onAddNote, onDeleteNote }) {
+export default function NotesPanel({className, rangeStart, rangeEnd, activeNotes, onAddNote, onDeleteNote }) {
   const [inputOpen, setInputOpen] = useState(false);
   const [noteText, setNoteText] = useState('');
 

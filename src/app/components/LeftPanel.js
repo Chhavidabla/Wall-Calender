@@ -12,7 +12,7 @@ function countWeekdays(year, month, weekday) {
   return count;
 }
 
-export default function LeftPanel({ viewYear, viewMonth, showHolidays }) {
+export default function LeftPanel({className, viewYear, viewMonth, showHolidays }) {
   const hero = MONTH_HERO_IMAGES[viewMonth];
   const holidays = getHolidaysForMonth(viewYear, viewMonth);
   const daysInMonth = new Date(viewYear, viewMonth + 1, 0).getDate();

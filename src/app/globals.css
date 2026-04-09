@@ -1,8 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* 🔥 prevents cutting */
+}
 /* Desktop */
 .calendar-layout {
   display: grid;
   grid-template-columns: minmax(0, 220px) 1fr minmax(0, 220px);
   gap: 10px;
+  width: 100%;
 }
 
 /* Tablet */
@@ -10,11 +20,21 @@
   .calendar-layout {
     grid-template-columns: 1fr;
   }
+
+  .left-panel,
+  .notes-panel {
+    display: none; /* hide side panels */
+  }
 }
 
 /* Mobile */
 @media (max-width: 768px) {
   .calendar-layout {
     grid-template-columns: 1fr;
+  }
+
+  .left-panel,
+  .notes-panel {
+    display: none;
   }
 }

@@ -4,7 +4,7 @@ A production-quality interactive wall calendar built with **Next.js App Router**
 
 ---
 ## 🔗 Live Demo
-https://wall-calender-qjhwex6nj-chhavidablas-projects.vercel.app/
+https://wall-calender-delta.vercel.app/
 
 ## 📸 Preview
 

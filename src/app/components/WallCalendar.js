@@ -237,7 +237,7 @@ export default function WallCalendar() {
           {/* Body */}
           <div className="calendar-layout">
             {/* Left panel - hidden on small screens via media queries aren't available inline, but we render it */}
-            <LeftPanel viewYear={viewYear} viewMonth={viewMonth} showHolidays={showHolidays} />
+            <LeftPanel className="left-panel" viewYear={viewYear} viewMonth={viewMonth} showHolidays={showHolidays} />
 
             {/* Calendar grid */}
             <CalendarGrid
@@ -251,6 +251,7 @@ export default function WallCalendar() {
 
             {/* Notes panel */}
             <NotesPanel
+              className="notes-panel"
               rangeStart={rangeStart}
               rangeEnd={rangeEnd}
               activeNotes={activeNotes}
